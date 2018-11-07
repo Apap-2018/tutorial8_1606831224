@@ -10,10 +10,6 @@
 
     <head th:fragment="js">
         <script th:src="@{/js/bootstrap.min.js}"></script>
-		
-		<script th:src="@{/js/jquery/jquery-3.3.1.min.js}"></script>
-		
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
 </head>
 
@@ -24,16 +20,6 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" th:href="@{/}">Home</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav pull-right">
-                <li class="nav-item active">
-                    <a class="nav-link" th:href="@{/user/updatePassword}">Update Password</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav pull-right">
-                <li class="nav-item active">
-                    <a class="nav-link" th:href="@{/logout}">Logout</a>
                 </li>
             </ul>
         </div>
